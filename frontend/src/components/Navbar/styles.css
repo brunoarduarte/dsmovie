@@ -19,8 +19,8 @@ header {
 }
 
 .dsmovie-contact-container {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 .dsmovie-contact-link {

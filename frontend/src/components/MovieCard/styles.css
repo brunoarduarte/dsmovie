@@ -1,0 +1,17 @@
+.animeLeft {
+  animation: animeLeft 1s forwards;
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+@keyframes animeLeft {
+
+  to {
+    opacity: initial;
+    transform: initial;
+  }
+}
+
+.animeLeft:hover {
+  box-shadow: -8px 3px 5px #aaa;
+}

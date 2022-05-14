@@ -55,3 +55,17 @@
     justify-content: center;
     width: 180px;
 }
+
+.animeLeft {
+    animation: animeLeft 1s forwards;
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+@keyframes animeLeft {
+
+    to {
+        opacity: initial;
+        transform: initial;
+    }
+}
